@@ -63,3 +63,14 @@ void display() {
 }
 
 
+int main() {
+
+	input(); // Call the input function to get user input
+	bubbleSortArray(); // Call the selection sort function
+	display(); // Display the sorted array
+	system("pause");
+
+	return 0;
+}
+
+
